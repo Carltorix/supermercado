@@ -8,7 +8,7 @@ class Prodcuto:
 	def get_nombre(self):
 		return self.__nombre
 	def get primera_necesidad(self):
-		return "ADIOS"
+		return self.__primera_necesidad
 	def precio(self):
 		if primera_necesidad():
 			return self.__precio*self.__descuento
@@ -25,7 +25,7 @@ class Supermercado:
 		return self.__nombre	
 					
 	def get_direccion(self):
-		return "HOLA"
+		return self.__direccion
 
 	def	set_lista_productos(self,producto):
 		self.__lista_productos.append(producto)
