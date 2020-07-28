@@ -8,7 +8,7 @@ class Prodcuto:
 	def get_nombre(self):
 		return self.__nombre
 	def get primera_necesidad(self):
-		return self.__primera_necesidad
+		return "Adios"
 	def precio(self):
 		if primera_necesidad():
 			return self.__precio*self.__descuento
